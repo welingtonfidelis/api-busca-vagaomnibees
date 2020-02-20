@@ -4,7 +4,7 @@ const routes = express.Router()
 const Omnibees = require('./controllers/Omnibees');
 
 //busca de quartos
-routes.post('/searchByDate', (req, res) => {
+routes.post('/searchbydate', (req, res) => {
     Omnibees.searchByDate(req, res);
 });
 // routes.get('/user', (req, res) => {
