@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Esta api tem objetivo de trabalhar como um Crawler, buscando informações sobre quartos de hotéis em respostas de páginas web, mais precisamente, páginas retornadas por buscas no hotel Le Canton (https://lecanton.com.br/).
+Este projeto, construído no formato de REST API, tem objetivo de trabalhar como um Crawler, buscando informações sobre quartos de hotéis em respostas de páginas web, mais precisamente, páginas retornadas por buscas no hotel Le Canton (https://lecanton.com.br/).
 
 ### Requisitos
 
