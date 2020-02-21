@@ -1,5 +1,7 @@
 const axios = require('axios').default;
 const cheerio = require('cheerio');
+const { URLSearchParams } = require('url');
+global.URLSearchParams = URLSearchParams;
 
 module.exports = {
     async searchByDate(req, res) {
@@ -9,7 +11,7 @@ module.exports = {
         checkout = checkout.replace(/[\/-]/g, '');
         adults = adults ? adults : 1;
         childs = childs ? childs : 0;
-        age = age ? age : '-0';
+        age = age ? age : '-';
         rooms = rooms ? rooms : 1;
 
         console.log(`Entrada: ${checkin}, Saida: ${checkout}`);
